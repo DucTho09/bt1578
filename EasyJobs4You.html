@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>EasyJobs4You</title>
+	<style type="text/css">
+		.row{
+			display: flex;
+		}
+		button{
+			margin-left: 20px;
+			margin-top: 10px;
+		}
+	</style>
+</head>
+<body>
+<h1>Registration Form - Job Seekers</h1>
+<form method="post">
+	<label class="row">Login Name:</label>
+	<input type="text" name="Login Name">
+	<br>
+	<label class="row">Password:</label>
+	<input type="text" name="Password">
+	<br>
+	<label class="row">Re-enter Password:</label>
+	<input type="text" name="Re-enter Password">
+	<br>
+	<label class="row">Gender:</label>
+	<input type="radio" name="Gender"> Nam
+    <input type="radio" name="Gender"> Nu
+    <br>
+    <label class="row">Experience (In year):</label>
+    <select>
+    	<option>Select...</option>
+    	<option>0-1</option>
+    	<option>1-2</option>
+    	<option>2-3</option>
+    	<option>3+</option>
+    </select>
+    <br>
+    <a href="thankyou.html"><button>Register</button></a>
+    <button>Cancel</button>	
+</form>
+</body>
+</html>
